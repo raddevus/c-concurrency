@@ -8,3 +8,6 @@ if (args.Length < 1){
 // Test non-async
 nonasync na = new();
 na.GetBitmapWidth(args[0]);
+
+asynctargets at = new();
+at.ReadBytesGetCount(args[0]);
